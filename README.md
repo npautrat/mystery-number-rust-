@@ -1,33 +1,33 @@
-# Nombre Mystère (Rust)
+# Mystery Number (Rust)
 
-Un petit jeu en ligne de commande écrit en Rust où le joueur doit deviner un nombre aléatoire compris entre **1 et 100**.
+A simple command-line game written in Rust where the player has to guess a random number between **1 and 100**.
 
-## Prérequis
+## Prerequisites
 
-- [Rust et Cargo](https://rustup.rs/) installés sur ta machine.
+- [Rust and Cargo](https://rustup.rs/) installed on your machine.
 
-Vérifie ton installation :
+Verify your installation:
 ```bash
 rustc --version
 cargo --version
 ```
 
-## Installation et lancement
+## Installation and Running
 
-1. **Cloner le dépôt :**
+1. **Clone the repository:**
    ```bash
    git clone [https://github.com/npautrat/mystery-number-rust-.git](https://github.com/npautrat/mystery-number-rust-.git)
    cd mystery-number-rust-
    ```
 
-2. **Lancer le jeu :**
+2. **Run the game:**
    ```bash
    cargo run
    ```
-   *(Ou `cargo run --release` pour lancer une version optimisée).*
+   *(Or `cargo run --release` to run an optimized build).*
 
-## Règles du jeu
+## Game Rules
 
-- Le programme génère un nombre secret entre `1` et `100`.
-- Saisis un nombre dans le terminal à chaque tour.
-- Le jeu t'indique si ton estimation est trop petite ou trop grande jusqu'à ce que tu trouves la bonne réponse.
+- The program generates a secret number between `1` and `100`.
+- Enter a number in the terminal on each turn.
+- The game tells you whether your guess is too low or too high until you find the right answer.
